@@ -1,7 +1,28 @@
-The battery performance dataset is associated with the development of Li-ICl battery published in the reference below.
-Copyright IBM Inc. 2024. All Rights Reserved.
-If using this dataset, please cite the reference: 
-  Authors: Vidushi Sharma, Andy Tek, Khanh Nguyen, Max Giammona, Murtaza Zohair, Linda Sundberg, Young-Hye La
-  Title: Improving Electrolyte Performance for Target Cathode Loading Using Interpretable Data-Driven Approach
-  DOI: https://doi.org/10.48550/arXiv.2409.01989
-  Year: 2024
+Introduction 
+
+IBM Research uses data-driven approaches to design and optimize electrolyte formulations for next-generation batteries. Formulation Graph Convolution Neural Network (F-GCN) maps the structure-composition relationship of the formulation constituents to the property of liquid formulation as a whole (https://pubs.acs.org/doi/10.1021/acs.jcim.3c01030). Here, F-GCN is extended (extended-FGCN) to incorporate additional battery design variables like electrode composition, separator type, and temperatures, and drive electrolyte optimization for a target cathode configuration. This approach is available to support and advance data-driven discovery of battery electrolytes.
+
+Repository Structure
+
+The repository structure is as follows:
+
+Interhalogen_Battery/
+├── Data
+├── Model
+├── Machine Learning
+ 
+
+Getting Started
+
+Extended-FGCN can be used for any battery experimental dataset to predict battery performance metrics such as capacity, cycle life, and CE. To get started, you can clone the repository. Detailed documentation and example python scripts to train and test the model are provided in the Model folder.
+
+git clone https://github.com/vidushiss/Interhalogen_Battery.git
+
+Contributions
+
+We welcome contributions from the community! If you have any ideas, improvements, or new models you'd like to share, please feel free to contact.
+
+Contact
+
+For any questions, suggestions, or feedback, please open an issue on GitHub or reach out to us directly through our contact information: vidushis@ibm.com
+
