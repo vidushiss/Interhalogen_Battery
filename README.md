@@ -1,6 +1,6 @@
 **Introduction**
 
-IBM Research uses data-driven approaches to design and optimize electrolyte formulations for next-generation batteries. Formulation Graph Convolution Neural Network (F-GCN) maps the structure-composition relationship of the formulation constituents to the property of liquid formulation as a whole (https://pubs.acs.org/doi/10.1021/acs.jcim.3c01030). Here, F-GCN is extended (extended-FGCN) to incorporate additional battery design variables like electrode composition, separator type, and temperatures, and drive electrolyte optimization for a target cathode configuration. This approach is available to support and advance data-driven discovery of battery electrolytes.
+IBM Research uses data-driven approaches to design and optimize electrolyte formulations for next-generation batteries. [Formulation Graph Convolution Neural Network (F-GCN)](https://pubs.acs.org/doi/10.1021/acs.jcim.3c01030) maps the structure-composition relationship of the formulation constituents to the property of liquid formulation as a whole. Here, F-GCN is extended ([extended-FGCN](https://arxiv.org/pdf/2409.01989)) to incorporate additional battery design variables like electrode composition, separator type, and temperatures, and drive electrolyte optimization for a target cathode configuration. This approach is available to support and advance data-driven discovery of battery electrolytes.
 
 **Getting Started**
 
