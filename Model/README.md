@@ -10,6 +10,8 @@ For more information, contact: vidushis@ibm.com
 Follow these steps to replicate our Conda environment and install the necessary libraries:
 
 $ conda create --name <env_name> python=3.8
+
 $ conda activate <env_name>
+
 $ conda install --file requirements.txt
 
