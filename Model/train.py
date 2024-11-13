@@ -1,3 +1,13 @@
+""" Title """
+
+__author__ = "Vidushi Sharma <vidushis@ibm.com>"
+__copyright__ = "(c) Copyright IBM Corp. 2024"
+__version__ = "0.1"
+__date__ = "November 1 2024"
+
+
+
+
 import matplotlib.pyplot as plt
 import seaborn as sns
 import matplotlib as mpl
